@@ -1,0 +1,41 @@
+.nav{
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+ }
+ .container{
+  max-width: 1200px;
+  margin: auto;
+ }
+ .postContainer{
+  margin-top: 1rem;
+ }
+ .postTitle{
+  font-size: 2rem;
+  font-weight: bold;
+ }
+ 
+ .postImg{
+  max-width: 400px;
+  max-height: 300px;
+  margin-right: 2rem;
+ }
+ 
+ .postCard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ .btn {
+  background-color: blue;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: white;
+ }
+ 
+ .floatImg{
+  float: left;
+ }
