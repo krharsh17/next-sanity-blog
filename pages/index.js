@@ -22,7 +22,7 @@ export default function Home({ posts }) {
 
             <div className='postDetails'>
             <div className='postPreview'>
-                <SanityBlockContent blocks={[0,1,2].map(x=>post.bodyRaw[x])} />
+                <SanityBlockContent blocks={post.bodyRaw} />
             </div>
             <button className='btn' onClick={() => router.push(`/post/${post.slug.current}`)}>Read more...</button>
             </div>
